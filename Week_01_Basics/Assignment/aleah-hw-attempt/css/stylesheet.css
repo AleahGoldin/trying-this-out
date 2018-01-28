@@ -1,0 +1,49 @@
+body {
+	color:#05080C;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0;
+	background-color: #F6F6F6;
+	border-top: solid 5px black;
+}
+
+p {
+	font-family: Georgia, Times, "Times New Roman", serif;
+} 
+/*When you just add 2 numbers for padding, it's because top and bottom padding are the first number, right and left padding are the seocnd number.*/
+
+header {
+	border-bottom: 1px solid #222222;
+	padding: 0 100px;
+}
+
+hr {
+border-bottom: 1px solid grey;
+
+}
+article {
+  border-bottom: 5px solid #222222;
+  padding: 0 100px;
+}
+
+/*The float property is used to have text and images side by side.*/
+img {
+	float: right;
+	margin-left: 20px;
+}
+
+th {
+	background-color: #222222;
+	color: white;
+	padding: 10px;
+}
+
+td {
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+.papers {
+  list-style-type: none;
+}
