@@ -1,0 +1,54 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header {
+	background: yellow;
+	float: left;
+	width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+li {
+	background: purple;
+	float: left;
+	width: 5%;
+	padding: 25px;
+	box-sizing: border-box;
+	margin: 10px;
+}
+main {
+	background: green;
+	float: left;
+	width: 60%;
+	clear: both;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+section {
+	background: purple;
+	float: left;
+	width: 20%;
+	padding: 25px;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+aside {
+	background: black;
+	float: left;
+	width: 40%;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+footer {
+	background: grey;
+	float: left;
+	width: 100%;
+	padding: 25px;
+	box-sizing: border-box;
+}

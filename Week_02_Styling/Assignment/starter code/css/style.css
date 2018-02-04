@@ -1,0 +1,152 @@
+
+body {
+	font-family: "open sans", sans serif;
+	color: #606161;
+	line-height: 1.4;
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.wrapper {
+	width: 960px;
+	padding-top: 20px;
+	margin: 0 auto;
+
+}
+
+/*header*/
+header {
+	width: 100%;
+	height: 700px;
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.logo {
+	color: white;
+	margin: 0;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+header p {
+	color: white;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.signup {
+	width: 300px;
+	background: #f9e42e;
+	padding: 12px 0;
+	border-radius: 5px;
+	color: #033048;
+	font-size:28px;
+	font-weight: 800;
+	margin: 0 auto;
+	float: center;
+	display: block;
+	border: solid  #033048 1px;
+	box-sizing: border-box;
+}
+
+/*main*/
+main {
+padding-top: 70px;
+padding-bottom: 70px;
+padding: 25px;
+}
+
+main h1 {
+	font-weight: 600;
+	font-size: 40px;
+	color: #033048;
+}
+
+main p {
+	width: 600px;
+}
+
+main ul {
+	width: 600px;
+	margin-left: 25px;
+}
+/*aside quote*/
+aside {
+	background-image: url(../images/testimonial_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+aside div{
+	width: 600px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+aside div p {
+	color: white;
+	font-style: italic;
+	font-size: 36;
+	font-weight: 300;
+}
+
+p.name {
+	font-weight: 600;
+	font-style: normal;
+}
+
+/*aside button*/
+
+.sign-up-now-button {
+	background:#f9e42e;
+	padding: 50px;
+	margin-bottom: 0;
+}
+
+.sign-up-now-button button {
+	background: #033048;
+	color: white;
+	border: none;
+}
+/*footer*/
+footer {
+	margin-top: none;
+	background: #121212;
+	height: 700px;
+}
+
+footer .logo{
+	padding-top: 50px; 
+	color: #f9e42e;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;}
+ 
+ footer > div {
+ 	box-sizing: border-box;
+ 	display: block;
+ 	width: 100px;
+ 	margin: 120px auto;
+ 	overflow: hidden;
+ }
+
+footer a img {
+	display: inline-block;
+	padding: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+footer p {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	display: block;
+}

@@ -1,0 +1,78 @@
+header {
+	width: 95%;
+	padding: 60px;
+	box-sizing: border-box;
+	margin: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both;
+}
+
+.logo {
+	background: grey;
+	float: left;
+	width: 10%;
+	padding: 30px;
+}
+
+li {
+	background: grey;
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	width: 8%;
+	padding: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+main {
+	width: 85%;
+	margin: auto;
+}
+
+main .sidebar {
+	background: red;
+	float: left;
+	height: 400px;
+	padding: 50px;
+	margin: 15px;
+	display: inline-block;
+}
+
+main section {
+	background: yellow;
+	width: 28%;
+	height: 300px;
+	margin: 10px;
+	padding: 25px;
+	float: right;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+main .top-section {
+	background: purple;
+}
+
+div {
+	text-align:center;
+}
+
+/*	background: yellow;
+	width: 60%;
+	float: right;
+}
+
+
+footer {
+	clear: both;
+	background: grey;
+	width: 85%;
+	padding: 60px;
+	box-sizing: border-box;
+	margin: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
