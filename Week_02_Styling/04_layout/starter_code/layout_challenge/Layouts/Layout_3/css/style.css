@@ -1,0 +1,41 @@
+
+.headerstripe, .footerstripe {
+	width: 100%;
+	background: red;
+}
+
+.twoferstripe {
+	  width:100%;
+	  overflow: hidden;
+}
+.twoferstripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.twoFerCol {
+	width:30%;
+	float: left;
+	background:red;
+	margin: 10px 10px;
+	box-sizing: border-box;
+}
+
+.threecolstripe {
+	  width:100%;
+	  overflow: hidden;
+}
+
+.threecolstripe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.threecol {
+	width: 25%;
+	background: red;
+	float: left;
+	margin: 10px 10px;
+}

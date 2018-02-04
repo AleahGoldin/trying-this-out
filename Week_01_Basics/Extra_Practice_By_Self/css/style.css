@@ -1,0 +1,100 @@
+body {
+	color: #757373;
+	font-family: sans-serif;
+	margin-bottom: 0 0 0 10;
+}
+
+article {
+	float:left;
+	margin: 0 1.5%;
+  	width: 63%;
+}
+
+aside {
+	float:right;
+	margin: 0 1.5%;
+  	width: 30%;
+}
+
+header {
+	background-color: #7ececb;
+	padding: 20px 10px;
+}
+
+img{
+	float: left;
+	text-align: left;
+	align-items: baseline;
+}
+
+.nav-main {
+    color: #306866;
+    font-weight: bold;
+	list-style-type: none;
+    top: 0;
+    padding-bottom: 30px;
+}
+
+.nav-main ol {
+	float: left;
+	margin: 0 0.15em;
+}
+
+.subpage_title {
+	font-size: 36;
+	color: white;
+
+}
+
+.subpage_description{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5; width: 13em;
+	width: 30em;
+}
+
+h2.timeline{
+	color: #757373;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+h3.timeline{
+	color:black;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+
+h4.timeline{
+	color:#F5A468;
+	font-size: 30px;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+p.action_item {
+	color:#F5A468;
+}
+.nice-hover, .aside-hyperlinks {
+	color:  #757373;
+	list-style-type: none;
+	padding: 25px 25px 20px 0px;
+	border-bottom: 1px solid #757373;
+}
+.nice-hover:hover {
+	color: white;
+	background-color: #757373;
+	cursor: pointer;
+}
+/*Aleah -- do the icons and do the menu hover*/
+
+/*Menu*/
+/*What would be the most sustainable way to do the footer?*/

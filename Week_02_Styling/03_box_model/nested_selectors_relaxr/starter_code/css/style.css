@@ -69,6 +69,10 @@ a {
   margin-top:16px;
 }
 
+.relaxr-corestyles p {
+  size: 26px;
+}
+
 .relaxr-corestyles em {
   font-style: :italic;
 }
