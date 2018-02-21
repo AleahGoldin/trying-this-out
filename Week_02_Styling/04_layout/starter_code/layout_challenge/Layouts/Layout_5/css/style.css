@@ -2,7 +2,6 @@ header {
 	width: 95%;
 	padding: 60px;
 	box-sizing: border-box;
-	margin: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
@@ -28,51 +27,86 @@ li {
 }
 
 main {
-	width: 85%;
-	margin: auto;
+	padding: 25px;
+	height: 700px;
+	overflow: hidden;
 }
 
 main .sidebar {
 	background: red;
 	float: left;
-	height: 400px;
+	height: 575px;
 	padding: 50px;
-	margin: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 	display: inline-block;
 }
 
-main section {
-	background: yellow;
-	width: 28%;
-	height: 300px;
-	margin: 10px;
-	padding: 25px;
+main .topsection {
+	display: inline-block;
+	background: red;
 	float: right;
-	box-sizing: border-box;
+	width: 900px;
+	height: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+main .middlesection {
 	display: inline-block;
+	float: right;
+	width: 900px;
+	height: 200px;
+	margin: 15px;
 }
 
-main .top-section {
-	background: purple;
+main .middlearticle {
+	background: red;
+	display: inline-block;
+	float: left;
+	width: 620px;
+	height: 200px;
+	margin: 15px;
+}
+
+main .sidearticle {
+	background: red;
+	display: inline-block;
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+}
+
+main .bottomsection {
+	display: inline-block;
+	float: right;
+	width: 900px;
+	height: 200px;
+	margin: 15px;
+}
+
+main .bottomarticle {
+	background: green;
+	display: inline-block;
+	float: left;
+	width: 195px;
+	height: 200px;
+	margin: 15px;
 }
 
 div {
 	text-align:center;
 }
 
-/*	background: yellow;
-	width: 60%;
-	float: right;
-}
-
-
 footer {
-	clear: both;
-	background: grey;
+	background: yellow;
+	display: block;
+	padding: 25px;
 	width: 85%;
-	padding: 60px;
-	box-sizing: border-box;
-	margin: 15px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
+
+
+
+

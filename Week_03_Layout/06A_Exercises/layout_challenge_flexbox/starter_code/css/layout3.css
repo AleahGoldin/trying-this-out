@@ -1,0 +1,35 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMain {
+}
+
+.exerciseMainFeatures {
+	display:flex;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+	background: yellow;
+	flex: 2;
+	margin: 10px;
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+
+}
+
+.exerciseAdditionalFeatures {
+	display: flex;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+	background: green;
+	flex: 3;
+	margin: 10px;
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+
+}
